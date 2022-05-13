@@ -4,12 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run-all": "cypress run --browser chrome --spec tests/**/ *.spec",
+    "cy:run-api": "cypress run --browser chrome --spec tests/api/",
+    "cy:run-e2e": "cypress run --browser chrome --spec tests/e2e/"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Hepsiburada",
+    "Case Study",
+    "Cypress",
+    "May the force be with you!"
+  ],
+  "author": "Mustafa Hakan Çatana",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.6.1",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  },
+  "dependencies": {
+    "prettier": "^2.6.2"
   }
 }

@@ -1,1 +1,16 @@
-{}
+{
+  "baseUrl": "https://www.hepsiburada.com",
+  "integrationFolder": "tests",
+  "video": false,
+  "env": {
+    "restApiUrl": "https://petstore.swagger.io/"
+  },
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "reports",
+    "charts": true,
+    "reportPageTitle": "E2E & RESTAPI Results",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  }
+}
