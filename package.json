@@ -6,8 +6,9 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run-all": "cypress run --browser chrome --spec tests/**/ *.spec",
-    "cy:run-api": "cypress run --browser chrome --spec tests/api/",
-    "cy:run-e2e": "cypress run --browser chrome --spec tests/e2e/"
+    "cy:run-api": "cypress run --browser chrome --spec tests/api/** *.spec",
+    "cy:run-e2e-chrome": "cypress run --browser chrome --spec tests/e2e/** *.spec",
+    "cy:run-e2e-firefox": "cypress run --browser firefox --spec tests/e2e/** *.spec"
   },
   "keywords": [
     "Hepsiburada",

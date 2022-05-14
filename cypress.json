@@ -2,8 +2,10 @@
   "baseUrl": "https://www.hepsiburada.com",
   "integrationFolder": "tests",
   "video": false,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/screenshots",
   "env": {
-    "restApiUrl": "https://petstore.swagger.io/"
+    "restApiUrl": "https://petstore.swagger.io/v2/"
   },
   "reporter": "cypress-mochawesome-reporter",
   "reporterOptions": {
