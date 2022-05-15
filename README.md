@@ -11,6 +11,7 @@ This project aims to automate E2E and API specs.
 │   ├── plugins           # launch config
 │   ├── support           # custom commands
 │       ├── pageObjects   # page objects
+├── questions             # case study open-ended questions' answers
 ├── tests                 # automated tests
 │   ├── api               # api specs
 │   ├── e2e               # e2e specs
