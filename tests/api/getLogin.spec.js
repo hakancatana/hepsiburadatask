@@ -4,8 +4,8 @@ describe("Logging to Petstore", () => {
       url: Cypress.env("restApiUrl") + "user/login",
       method: "GET",
       qs: {
-        username: Cypress.env("testUsername"),
-        password: Cypress.env("testUserPassword"),
+        username: Cypress.env("apiTestUser").username,
+        password: Cypress.env("apiTestUser").password,
       },
     }).then((response) => {
       expect(response.status).eq(200);
