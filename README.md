@@ -2,7 +2,7 @@
 
 #### E2E & RESTAPI Automation with Cypress
 
-This project aims to automate E2E and API automation.
+This project aims to automate E2E and API specs.
 
 **Project Structure**
 
